@@ -8,6 +8,7 @@ You might want to delete your `.git`-folder and initialize your repository with 
 2. Change project properties (name, artifactID, etc) (right-click project -> refactor)
 3. Set up your `database` and `database_test` on droplet and vagrant (local only). 
     * By default we use `security_base` & `security_test`
+    * Go to /Other_Sources/src/main/resources/<default_package>/config.properties and change the database names as well as the remote connection key (~ line 41). The key must match the key that you create in step 6.
 
 ### Running local
 4. Ensure Vagrant is up
