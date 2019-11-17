@@ -23,7 +23,7 @@ You might want to delete your `.git`-folder and initialize your repository with 
     export PW="YOUR_DB_PASSWORD"
     export CONNECTION_STR="jdbc:mysql://localhost:3306/startcode"
     ```
-    * Save the file, and restart Tomcat: `sudo systemcctl restart tomcat`
+    * Save the file, and restart Tomcat: `sudo systemctl restart tomcat`
 7. Verify it works with the following script:  
 `mvn clean test -Dremote.user=script_user -Dremote.password=PW_FOR_script_user tomcat7:deploy`
 ---
